@@ -52,33 +52,73 @@
       <Label layoutX="26.0" layoutY="360.0" text="FORTITUDE" />
       <Label layoutX="26.0" layoutY="385.0" text="REFLEX" />
       <Label layoutX="26.0" layoutY="410.0" text="WILL" />
-      <TextField layoutX="282.0" layoutY="356.0" prefHeight="25.0" prefWidth="38.0" />
-      <TextField layoutX="327.0" layoutY="356.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField layoutX="302.0" layoutY="356.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField layoutX="347.0" layoutY="356.0" prefHeight="25.0" prefWidth="38.0" />
       <TextField layoutX="102.0" layoutY="356.0" prefHeight="25.0" prefWidth="38.0" />
-      <TextField layoutX="147.0" layoutY="356.0" prefHeight="25.0" prefWidth="38.0" />
-      <TextField layoutX="237.0" layoutY="356.0" prefHeight="25.0" prefWidth="38.0" />
-      <TextField layoutX="192.0" layoutY="356.0" prefHeight="25.0" prefWidth="38.0" />
-      <TextField layoutX="282.0" layoutY="382.0" prefHeight="25.0" prefWidth="38.0" />
-      <TextField layoutX="327.0" layoutY="382.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField layoutX="167.0" layoutY="356.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField layoutX="257.0" layoutY="356.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField layoutX="212.0" layoutY="356.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField layoutX="302.0" layoutY="382.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField layoutX="347.0" layoutY="382.0" prefHeight="25.0" prefWidth="38.0" />
       <TextField layoutX="102.0" layoutY="382.0" prefHeight="25.0" prefWidth="38.0" />
-      <TextField layoutX="147.0" layoutY="382.0" prefHeight="25.0" prefWidth="38.0" />
-      <TextField layoutX="237.0" layoutY="382.0" prefHeight="25.0" prefWidth="38.0" />
-      <TextField layoutX="192.0" layoutY="382.0" prefHeight="25.0" prefWidth="38.0" />
-      <TextField layoutX="282.0" layoutY="408.0" prefHeight="25.0" prefWidth="38.0" />
-      <TextField layoutX="327.0" layoutY="408.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField layoutX="167.0" layoutY="382.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField layoutX="257.0" layoutY="382.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField layoutX="212.0" layoutY="382.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField layoutX="302.0" layoutY="408.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField layoutX="347.0" layoutY="408.0" prefHeight="25.0" prefWidth="38.0" />
       <TextField layoutX="102.0" layoutY="408.0" prefHeight="25.0" prefWidth="38.0" />
-      <TextField layoutX="147.0" layoutY="408.0" prefHeight="25.0" prefWidth="38.0" />
-      <TextField layoutX="237.0" layoutY="408.0" prefHeight="25.0" prefWidth="38.0" />
-      <TextField layoutX="192.0" layoutY="408.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField layoutX="167.0" layoutY="408.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField layoutX="257.0" layoutY="408.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField layoutX="212.0" layoutY="408.0" prefHeight="25.0" prefWidth="38.0" />
       <Label layoutX="26.0" layoutY="343.0" text="Saving Throws">
          <font>
             <Font size="10.0" />
          </font>
       </Label>
-      <Label layoutX="156.0" layoutY="317.0" prefHeight="52.0" prefWidth="21.0" text="Base Save" wrapText="true">
+      <Label layoutX="177.0" layoutY="317.0" prefHeight="52.0" prefWidth="21.0" text="Base Save" textAlignment="CENTER" wrapText="true">
          <font>
             <Font size="9.0" />
          </font>
       </Label>
+      <Label layoutX="148.0" layoutY="360.0" text="=" />
+      <Label layoutX="148.0" layoutY="386.0" text="=" />
+      <Label layoutX="148.0" layoutY="412.0" text="=" />
+      <Label layoutX="111.0" layoutY="338.0" text="Total">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="209.0" layoutY="327.0" prefHeight="31.0" prefWidth="38.0" text="Ability Modifier" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Label>
+      <Label layoutX="257.0" layoutY="327.0" prefHeight="31.0" prefWidth="38.0" text="Magic Modifier" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Label>
+      <Label layoutX="302.0" layoutY="327.0" prefHeight="31.0" prefWidth="38.0" text="Misc Modifier" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Label>
+      <Label layoutX="344.0" layoutY="327.0" prefHeight="31.0" prefWidth="44.0" text="Temporary Modifier" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Label>
+      <Label layoutX="26.0" layoutY="450.0" text="Base Attack Bonus" underline="true">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField layoutX="152.0" layoutY="446.0" prefHeight="25.0" prefWidth="53.0" />
+      <Label layoutX="235.0" layoutY="450.0" text="Spell Resistance" underline="true">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField layoutX="347.0" layoutY="446.0" prefHeight="17.0" prefWidth="38.0" />
    </children>
 </Pane>
