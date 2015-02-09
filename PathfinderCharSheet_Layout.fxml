@@ -120,5 +120,58 @@
          </font>
       </Label>
       <TextField layoutX="347.0" layoutY="446.0" prefHeight="17.0" prefWidth="38.0" />
+      <Label layoutX="26.0" layoutY="492.0" text="CMB">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="26.0" layoutY="545.0" text="CMD">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="110.0" layoutY="512.0" text="Total">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="147.0" layoutY="493.0" text="=" />
+      <TextField layoutX="211.0" layoutY="489.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField layoutX="256.0" layoutY="489.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField layoutX="166.0" layoutY="489.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField layoutX="102.0" layoutY="489.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField layoutX="301.0" layoutY="489.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField layoutX="301.0" layoutY="547.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField layoutX="102.0" layoutY="547.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField layoutX="166.0" layoutY="547.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField layoutX="256.0" layoutY="547.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField layoutX="211.0" layoutY="547.0" prefHeight="25.0" prefWidth="38.0" />
+      <Label layoutX="147.0" layoutY="551.0" text="=" />
+      <Label layoutX="111.0" layoutY="572.0" text="Total">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="160.0" layoutY="508.0" lineSpacing="1.0E-5" prefHeight="38.0" prefWidth="53.0" text="Base Attack Bonus" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="160.0" layoutY="568.0" lineSpacing="1.0E-5" prefHeight="38.0" prefWidth="53.0" text="Base Attack Bonus" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="204.0" layoutY="513.0" prefHeight="27.0" prefWidth="53.0" text="Strength Modifier" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="204.0" layoutY="574.0" prefHeight="27.0" prefWidth="53.0" text="Strength Modifier" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <TextField layoutX="347.0" layoutY="547.0" prefHeight="25.0" prefWidth="38.0" />
    </children>
 </Pane>
