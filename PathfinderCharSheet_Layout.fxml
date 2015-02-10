@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.*?>
 <?import javafx.scene.text.*?>
 <?import javafx.scene.control.*?>
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
-
 
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="829.0" prefWidth="908.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
    <children>
@@ -140,7 +140,6 @@
       <TextField layoutX="256.0" layoutY="489.0" prefHeight="25.0" prefWidth="38.0" />
       <TextField layoutX="166.0" layoutY="489.0" prefHeight="25.0" prefWidth="38.0" />
       <TextField layoutX="102.0" layoutY="489.0" prefHeight="25.0" prefWidth="38.0" />
-      <TextField layoutX="301.0" layoutY="489.0" prefHeight="25.0" prefWidth="38.0" />
       <TextField layoutX="301.0" layoutY="547.0" prefHeight="25.0" prefWidth="38.0" />
       <TextField layoutX="102.0" layoutY="547.0" prefHeight="25.0" prefWidth="38.0" />
       <TextField layoutX="166.0" layoutY="547.0" prefHeight="25.0" prefWidth="38.0" />
@@ -157,21 +156,222 @@
             <Font size="8.0" />
          </font>
       </Label>
-      <Label layoutX="160.0" layoutY="568.0" lineSpacing="1.0E-5" prefHeight="38.0" prefWidth="53.0" text="Base Attack Bonus" textAlignment="CENTER" wrapText="true">
+      <Label layoutX="160.0" layoutY="565.0" lineSpacing="1.0E-5" prefHeight="38.0" prefWidth="53.0" text="Base Attack Bonus" textAlignment="CENTER" wrapText="true">
          <font>
             <Font size="8.0" />
          </font>
       </Label>
-      <Label layoutX="204.0" layoutY="513.0" prefHeight="27.0" prefWidth="53.0" text="Strength Modifier" textAlignment="CENTER" wrapText="true">
+      <Label layoutX="207.0" layoutY="513.0" prefHeight="27.0" prefWidth="44.0" text="Strength Modifier" textAlignment="CENTER" wrapText="true">
          <font>
             <Font size="8.0" />
          </font>
       </Label>
-      <Label layoutX="204.0" layoutY="574.0" prefHeight="27.0" prefWidth="53.0" text="Strength Modifier" textAlignment="CENTER" wrapText="true">
+      <Label layoutX="207.0" layoutY="571.0" prefHeight="27.0" prefWidth="44.0" text="Strength Modifier" textAlignment="CENTER" wrapText="true">
          <font>
             <Font size="8.0" />
          </font>
       </Label>
-      <TextField layoutX="347.0" layoutY="547.0" prefHeight="25.0" prefWidth="38.0" />
+      <Label layoutX="250.0" layoutY="50.0" text="MAX HP" />
+      <Label layoutX="250.0" layoutY="75.0" text="CURRENT HP" />
+      <TextField layoutX="336.0" layoutY="50.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField layoutX="336.0" layoutY="75.0" prefHeight="25.0" prefWidth="38.0" />
+      <Button layoutX="379.0" layoutY="75.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="24.0" text="-">
+         <font>
+            <Font name="System Bold" size="10.0" />
+         </font>
+      </Button>
+      <Button layoutX="403.0" layoutY="75.0" mnemonicParsing="false" text="+">
+         <font>
+            <Font name="System Bold" size="10.0" />
+         </font>
+      </Button>
+      <Label layoutX="250.0" layoutY="107.0" text="NONLETHAL DAMAGE">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Label>
+      <TextField layoutX="250.0" layoutY="120.0" />
+      <TextField layoutX="380.0" layoutY="50.0" prefHeight="25.0" prefWidth="38.0" />
+      <Label layoutX="380.0" layoutY="53.0" text="DR">
+         <font>
+            <Font size="7.0" />
+         </font>
+      </Label>
+      <Label layoutX="169.0" layoutY="256.0" text="+">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="214.0" layoutY="257.0" text="+">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="259.0" layoutY="257.0" text="+">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="304.0" layoutY="257.0" text="+">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="349.0" layoutY="257.0" text="+">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="394.0" layoutY="257.0" text="+">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="341.0" layoutY="364.0" text="+">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="296.0" layoutY="364.0" text="+">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="251.0" layoutY="364.0" text="+">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="206.0" layoutY="363.0" text="+">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="341.0" layoutY="389.0" text="+">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="296.0" layoutY="389.0" text="+">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="251.0" layoutY="389.0" text="+">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="206.0" layoutY="388.0" text="+">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="341.0" layoutY="415.0" text="+">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="296.0" layoutY="415.0" text="+">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="251.0" layoutY="415.0" text="+">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="206.0" layoutY="414.0" text="+">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="295.0" layoutY="554.0" text="+">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="250.0" layoutY="554.0" text="+">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="205.0" layoutY="553.0" text="+">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="250.0" layoutY="496.0" text="+">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="205.0" layoutY="495.0" text="+">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="253.0" layoutY="513.0" prefHeight="27.0" prefWidth="44.0" text="Size Modifier" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="299.0" layoutY="571.0" prefHeight="27.0" prefWidth="44.0" text="Size Modifier" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="255.0" layoutY="571.0" prefHeight="27.0" prefWidth="40.0" text="Dexterity Modifier" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="341.0" layoutY="554.0" text="+">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="349.0" layoutY="552.0" text="10" />
+      <Label layoutX="68.0" layoutY="275.0" text="Total">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="130.0" layoutY="268.0" prefHeight="38.0" prefWidth="40.0" text="Armor Bonus" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Label>
+      <Label layoutX="174.0" layoutY="268.0" prefHeight="38.0" prefWidth="40.0" text="Shield Bonus" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Label>
+      <Label layoutX="218.0" layoutY="273.0" prefHeight="27.0" prefWidth="40.0" text="Dexterity Modifier" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="263.0" layoutY="273.0" prefHeight="27.0" prefWidth="44.0" text="Size Modifier" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="400.0" layoutY="273.0" prefHeight="31.0" prefWidth="38.0" text="Misc Modifier" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Label>
+      <Label layoutX="306.0" layoutY="273.0" prefHeight="27.0" prefWidth="44.0" text="Natural Armor" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="352.0" layoutY="273.0" prefHeight="31.0" prefWidth="44.0" text="Deflection Modifier" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Label>
    </children>
 </Pane>
