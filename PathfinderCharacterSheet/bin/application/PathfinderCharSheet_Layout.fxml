@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="804.0" prefWidth="466.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="25.0" layoutY="50.0" text="STR" />
+      <Label layoutX="25.0" layoutY="75.0" text="DEX" />
+      <Label layoutX="25.0" layoutY="100.0" text="CON" />
+      <Label layoutX="25.0" layoutY="125.0" text="INT" />
+      <Label layoutX="25.0" layoutY="150.0" text="WIS" />
+      <Label layoutX="25.0" layoutY="175.0" text="CHA" />
+      <Label layoutX="26.0" layoutY="250.0" text="AC" />
+      <TextField fx:id="txt_AbilityStrAS" layoutX="60.0" layoutY="50.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField fx:id="txt_AbilityDexAS" layoutX="60.0" layoutY="75.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField fx:id="txt_AbilityConAS" layoutX="60.0" layoutY="100.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField fx:id="txt_AbilityIntAS" layoutX="60.0" layoutY="125.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField fx:id="txt_AbilityWisAS" layoutX="60.0" layoutY="150.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField fx:id="txt_AbilityChaAS" layoutX="60.0" layoutY="175.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField fx:id="txt_ACTotal" layoutX="60.0" layoutY="250.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField fx:id="txt_AbilityChaAM" layoutX="105.0" layoutY="175.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField fx:id="txt_AbilityWisAM" layoutX="105.0" layoutY="150.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField fx:id="txt_AbilityIntAM" layoutX="105.0" layoutY="125.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField fx:id="txt_AbilityConAM" layoutX="105.0" layoutY="99.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField fx:id="txt_AbilityDexAM" layoutX="105.0" layoutY="75.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField fx:id="txt_AbilityStrAM" layoutX="105.0" layoutY="50.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField fx:id="txt_AbilityStrTM" layoutX="195.0" layoutY="50.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField fx:id="txt_AbilityDexTM" layoutX="195.0" layoutY="75.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField fx:id="txt_AbilityConTM" layoutX="195.0" layoutY="99.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField fx:id="txt_AbilityIntTM" layoutX="195.0" layoutY="125.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField fx:id="txt_AbilityWisTM" layoutX="195.0" layoutY="150.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField fx:id="txt_AbilityChaTM" layoutX="195.0" layoutY="175.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField fx:id="txt_AbilityChaTA" layoutX="150.0" layoutY="175.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField fx:id="txt_AbilityWisTA" layoutX="150.0" layoutY="150.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField fx:id="txt_AbilityIntTA" layoutX="150.0" layoutY="125.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField fx:id="txt_AbilityConTA" layoutX="150.0" layoutY="99.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField fx:id="txt_AbilityDexTA" layoutX="150.0" layoutY="75.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField fx:id="txt_AbilityStrTA" layoutX="150.0" layoutY="50.0" prefHeight="25.0" prefWidth="38.0" />
+      <Button fx:id="btn_recompute" layoutX="84.0" layoutY="208.0" mnemonicParsing="false" text="Recompute" />
+      <Label layoutX="100.0" layoutY="254.0" text="=10+" />
+      <TextField fx:id="txt_ACDexMod" layoutX="220.0" layoutY="250.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField fx:id="txt_ACSizeMod" layoutX="265.0" layoutY="250.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField fx:id="txt_ACShield" layoutX="175.0" layoutY="250.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField fx:id="txt_ACArmor" layoutX="130.0" layoutY="250.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField fx:id="txt_ACDeflectionMod" layoutX="355.0" layoutY="250.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField fx:id="txt_ACNaturalArmor" layoutX="310.0" layoutY="250.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField fx:id="txt_ACMiscMod" layoutX="400.0" layoutY="250.0" prefHeight="25.0" prefWidth="38.0" />
+      <Label layoutX="26.0" layoutY="360.0" text="FORTITUDE" />
+      <Label layoutX="26.0" layoutY="385.0" text="REFLEX" />
+      <Label layoutX="26.0" layoutY="410.0" text="WILL" />
+      <TextField fx:id="txt_SaveFortMiscMod" layoutX="302.0" layoutY="356.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField fx:id="txt_SaveFortTempMod" layoutX="347.0" layoutY="356.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField fx:id="txt_SaveFortTotal" layoutX="102.0" layoutY="356.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField fx:id="txt_SaveFortBase" layoutX="167.0" layoutY="356.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField fx:id="txt_SaveFortMagicMod" layoutX="257.0" layoutY="356.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField fx:id="txt_SaveFortAbilityMod" layoutX="212.0" layoutY="356.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField fx:id="txt_SaveRflxMiscMod" layoutX="302.0" layoutY="382.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField fx:id="txt_SaveRflxTempMod" layoutX="347.0" layoutY="382.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField fx:id="txt_SaveRflxTotal" layoutX="102.0" layoutY="382.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField fx:id="txt_SaveRflxBase" layoutX="167.0" layoutY="382.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField fx:id="txt_SaveRflxMagicMod" layoutX="257.0" layoutY="382.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField fx:id="txt_SaveRflxAbilityMod" layoutX="212.0" layoutY="382.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField fx:id="txt_SaveWillMiscMod" layoutX="302.0" layoutY="408.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField fx:id="txt_SaveWillTempMod" layoutX="347.0" layoutY="408.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField fx:id="txt_SaveWillTotal" layoutX="102.0" layoutY="408.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField fx:id="txt_SaveWillBase" layoutX="167.0" layoutY="408.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField fx:id="txt_SaveWillMagicMod" layoutX="257.0" layoutY="408.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField fx:id="txt_SaveWillAbilityMod" layoutX="212.0" layoutY="408.0" prefHeight="25.0" prefWidth="38.0" />
+      <Label layoutX="26.0" layoutY="343.0" text="Saving Throws">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="177.0" layoutY="317.0" prefHeight="52.0" prefWidth="21.0" text="Base Save" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Label>
+      <Label layoutX="148.0" layoutY="360.0" text="=" />
+      <Label layoutX="148.0" layoutY="386.0" text="=" />
+      <Label layoutX="148.0" layoutY="412.0" text="=" />
+      <Label layoutX="111.0" layoutY="338.0" text="Total">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="209.0" layoutY="327.0" prefHeight="31.0" prefWidth="38.0" text="Ability Modifier" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Label>
+      <Label layoutX="257.0" layoutY="327.0" prefHeight="31.0" prefWidth="38.0" text="Magic Modifier" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Label>
+      <Label layoutX="302.0" layoutY="327.0" prefHeight="31.0" prefWidth="38.0" text="Misc Modifier" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Label>
+      <Label layoutX="344.0" layoutY="327.0" prefHeight="31.0" prefWidth="44.0" text="Temporary Modifier" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Label>
+      <Label layoutX="26.0" layoutY="450.0" text="Base Attack Bonus" underline="true">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txt_BAB" layoutX="152.0" layoutY="446.0" prefHeight="25.0" prefWidth="53.0" />
+      <Label layoutX="235.0" layoutY="450.0" text="Spell Resistance" underline="true">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txt_SpellRes" layoutX="347.0" layoutY="446.0" prefHeight="17.0" prefWidth="38.0" />
+      <Label layoutX="26.0" layoutY="492.0" text="CMB">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="26.0" layoutY="545.0" text="CMD">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="110.0" layoutY="512.0" text="Total">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="147.0" layoutY="493.0" text="=" />
+      <TextField fx:id="txt_CMBStrMod" layoutX="211.0" layoutY="489.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField fx:id="txt_CMBSizeMod" layoutX="256.0" layoutY="489.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField fx:id="txt_CMBBAB" layoutX="166.0" layoutY="489.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField fx:id="txt_CMBTotal" layoutX="102.0" layoutY="489.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField fx:id="txt_CMDSizeMod" layoutX="301.0" layoutY="547.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField fx:id="txt_CMDTotal" layoutX="102.0" layoutY="547.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField fx:id="txt_CMDBAB" layoutX="166.0" layoutY="547.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField fx:id="txt_CMDDexMod" layoutX="256.0" layoutY="547.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField fx:id="txt_CMDStrMod" layoutX="211.0" layoutY="547.0" prefHeight="25.0" prefWidth="38.0" />
+      <Label layoutX="147.0" layoutY="551.0" text="=" />
+      <Label layoutX="111.0" layoutY="572.0" text="Total">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="160.0" layoutY="508.0" lineSpacing="1.0E-5" prefHeight="38.0" prefWidth="53.0" text="Base Attack Bonus" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="160.0" layoutY="565.0" lineSpacing="1.0E-5" prefHeight="38.0" prefWidth="53.0" text="Base Attack Bonus" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="207.0" layoutY="513.0" prefHeight="27.0" prefWidth="44.0" text="Strength Modifier" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="207.0" layoutY="571.0" prefHeight="27.0" prefWidth="44.0" text="Strength Modifier" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="250.0" layoutY="61.0" text="MAX HP" />
+      <Label layoutX="250.0" layoutY="86.0" text="CURRENT HP" />
+      <TextField fx:id="txt_MaxHPMax" layoutX="336.0" layoutY="61.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField fx:id="txt_CurrentHP" layoutX="336.0" layoutY="86.0" prefHeight="25.0" prefWidth="38.0" />
+      <Button fx:id="btn_CurHpMinus" layoutX="379.0" layoutY="86.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="24.0" text="-">
+         <font>
+            <Font name="System Bold" size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_CurHpPlus" layoutX="403.0" layoutY="86.0" mnemonicParsing="false" text="+">
+         <font>
+            <Font name="System Bold" size="10.0" />
+         </font>
+      </Button>
+      <Label layoutX="250.0" layoutY="113.0" text="NONLETHAL DAMAGE">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txt_NonLethal" layoutX="250.0" layoutY="127.0" />
+      <TextField fx:id="txt_DamageReduction" layoutX="380.0" layoutY="61.0" prefHeight="25.0" prefWidth="38.0" />
+      <Label layoutX="380.0" layoutY="64.0" text="DR">
+         <font>
+            <Font size="7.0" />
+         </font>
+      </Label>
+      <Label layoutX="169.0" layoutY="256.0" text="+">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="214.0" layoutY="257.0" text="+">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="259.0" layoutY="257.0" text="+">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="304.0" layoutY="257.0" text="+">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="349.0" layoutY="257.0" text="+">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="394.0" layoutY="257.0" text="+">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="341.0" layoutY="364.0" text="+">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="296.0" layoutY="364.0" text="+">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="251.0" layoutY="364.0" text="+">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="206.0" layoutY="363.0" text="+">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="341.0" layoutY="389.0" text="+">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="296.0" layoutY="389.0" text="+">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="251.0" layoutY="389.0" text="+">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="206.0" layoutY="388.0" text="+">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="341.0" layoutY="415.0" text="+">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="296.0" layoutY="415.0" text="+">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="251.0" layoutY="415.0" text="+">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="206.0" layoutY="414.0" text="+">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="295.0" layoutY="554.0" text="+">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="250.0" layoutY="554.0" text="+">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="205.0" layoutY="553.0" text="+">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="250.0" layoutY="496.0" text="+">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="205.0" layoutY="495.0" text="+">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="253.0" layoutY="513.0" prefHeight="27.0" prefWidth="44.0" text="Size Modifier" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="299.0" layoutY="571.0" prefHeight="27.0" prefWidth="44.0" text="Size Modifier" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="255.0" layoutY="571.0" prefHeight="27.0" prefWidth="40.0" text="Dexterity Modifier" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="341.0" layoutY="554.0" text="+">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="349.0" layoutY="552.0" text="10" />
+      <Label layoutX="68.0" layoutY="275.0" text="Total">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="130.0" layoutY="268.0" prefHeight="38.0" prefWidth="40.0" text="Armor Bonus" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Label>
+      <Label layoutX="174.0" layoutY="268.0" prefHeight="38.0" prefWidth="40.0" text="Shield Bonus" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Label>
+      <Label layoutX="218.0" layoutY="273.0" prefHeight="27.0" prefWidth="40.0" text="Dexterity Modifier" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="263.0" layoutY="273.0" prefHeight="27.0" prefWidth="44.0" text="Size Modifier" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="400.0" layoutY="273.0" prefHeight="31.0" prefWidth="38.0" text="Misc Modifier" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Label>
+      <Label layoutX="306.0" layoutY="273.0" prefHeight="27.0" prefWidth="44.0" text="Natural Armor" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="352.0" layoutY="273.0" prefHeight="31.0" prefWidth="44.0" text="Deflection Modifier" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Label>
+      <Label layoutX="250.0" layoutY="159.0" text="INITIATIVE" />
+      <Label layoutX="293.0" layoutY="181.0" text="=" />
+      <TextField fx:id="txt_InitMiscMod" layoutX="357.0" layoutY="177.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField fx:id="txt_InitDexMod" layoutX="312.0" layoutY="177.0" prefHeight="25.0" prefWidth="38.0" />
+      <TextField fx:id="txt_InitTotal" layoutX="247.0" layoutY="177.0" prefHeight="25.0" prefWidth="38.0" />
+      <Label layoutX="255.0" layoutY="201.0" text="Total">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="357.0" layoutY="198.0" prefHeight="31.0" prefWidth="38.0" text="Misc Modifier" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Label>
+      <Label layoutX="311.0" layoutY="200.0" prefHeight="27.0" prefWidth="40.0" text="Dexterity Modifier" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="39.0" prefHeight="11.0" prefWidth="40.0" text="Ability Name" textAlignment="CENTER">
+         <font>
+            <Font size="7.0" />
+         </font>
+      </Label>
+      <Label layoutX="59.0" layoutY="26.0" prefHeight="27.0" prefWidth="40.0" text="Ability Score" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="104.0" layoutY="24.0" prefHeight="31.0" prefWidth="40.0" text="Ability Modifier" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="194.0" layoutY="23.0" prefHeight="31.0" prefWidth="40.0" text="Temp Modifier" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="146.0" layoutY="24.0" prefHeight="31.0" prefWidth="44.0" text="Temp Adjustment" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txt_SavesTemp" layoutX="392.0" layoutY="355.0" prefHeight="77.0" prefWidth="38.0" />
+      <Label layoutX="385.0" layoutY="389.0" text="+">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="392.0" layoutY="348.0" prefHeight="31.0" prefWidth="44.0" text="Modifiers" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="7.0" />
+         </font>
+      </Label>
+      <Label layoutX="250.0" layoutY="40.0" text="SIZE MODIFIER" />
+      <TextField fx:id="txt_SzMod" layoutX="336.0" layoutY="35.0" prefHeight="25.0" prefWidth="38.0" />
+   </children>
+</Pane>
