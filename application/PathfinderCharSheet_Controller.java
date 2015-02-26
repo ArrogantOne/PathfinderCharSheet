@@ -13,155 +13,155 @@ import javafx.scene.control.TextField;
 public class PathfinderCharSheet_Controller {
 	//Ability score boxes.
 	@FXML
-	private TextField txt_AbilityStrAS;
+	private TextField txf_AbilityStrAS;
 	@FXML
-	private TextField txt_AbilityStrAM;
+	private TextField txf_AbilityStrAM;
 	@FXML
-	private TextField txt_AbilityStrTA;
+	private TextField txf_AbilityStrTA;
 	@FXML
-	private TextField txt_AbilityStrTM;
+	private TextField txf_AbilityStrTM;
 	@FXML
-	private TextField txt_AbilityDexAS;
+	private TextField txf_AbilityDexAS;
 	@FXML
-	private TextField txt_AbilityDexAM;
+	private TextField txf_AbilityDexAM;
 	@FXML
-	private TextField txt_AbilityDexTA;
+	private TextField txf_AbilityDexTA;
 	@FXML
-	private TextField txt_AbilityDexTM;
+	private TextField txf_AbilityDexTM;
 	@FXML
-	private TextField txt_AbilityConAS;
+	private TextField txf_AbilityConAS;
 	@FXML
-	private TextField txt_AbilityConAM;
+	private TextField txf_AbilityConAM;
 	@FXML
-	private TextField txt_AbilityConTA;
+	private TextField txf_AbilityConTA;
 	@FXML
-	private TextField txt_AbilityConTM;
+	private TextField txf_AbilityConTM;
 	@FXML
-	private TextField txt_AbilityIntAS;
+	private TextField txf_AbilityIntAS;
 	@FXML
-	private TextField txt_AbilityIntAM;
+	private TextField txf_AbilityIntAM;
 	@FXML
-	private TextField txt_AbilityIntTA;
+	private TextField txf_AbilityIntTA;
 	@FXML
-	private TextField txt_AbilityIntTM;
+	private TextField txf_AbilityIntTM;
 	@FXML
-	private TextField txt_AbilityWisAS;
+	private TextField txf_AbilityWisAS;
 	@FXML
-	private TextField txt_AbilityWisAM;
+	private TextField txf_AbilityWisAM;
 	@FXML
-	private TextField txt_AbilityWisTA;
+	private TextField txf_AbilityWisTA;
 	@FXML
-	private TextField txt_AbilityWisTM;
+	private TextField txf_AbilityWisTM;
 	@FXML
-	private TextField txt_AbilityChaAS;
+	private TextField txf_AbilityChaAS;
 	@FXML
-	private TextField txt_AbilityChaAM;
+	private TextField txf_AbilityChaAM;
 	@FXML
-	private TextField txt_AbilityChaTA;
+	private TextField txf_AbilityChaTA;
 	@FXML
-	private TextField txt_AbilityChaTM;
+	private TextField txf_AbilityChaTM;
 	//HP Boxes
 	@FXML
-	private TextField txt_MaxHPMax;
+	private TextField txf_MaxHPMax;
 	@FXML
-	private TextField txt_DamageReduction;
+	private TextField txf_DamageReduction;
 	@FXML
-	private TextField txt_CurrentHP;
+	private TextField txf_CurrentHP;
 	@FXML
-	private TextField txt_NonLethal;
+	private TextField txf_NonLethal;
 	//AC Boxes
 	@FXML
-	private TextField txt_ACTotal;
+	private TextField txf_ACTotal;
 	@FXML
-	private TextField txt_ACArmor;
+	private TextField txf_ACArmor;
 	@FXML
-	private TextField txt_ACShield;
+	private TextField txf_ACShield;
 	@FXML
-	private TextField txt_ACDexMod;
+	private TextField txf_ACDexMod;
 	@FXML
-	private TextField txt_ACSizeMod;
+	private TextField txf_ACSizeMod;
 	@FXML
-	private TextField txt_ACNaturalArmor;
+	private TextField txf_ACNaturalArmor;
 	@FXML
-	private TextField txt_ACDeflectionMod;
+	private TextField txf_ACDeflectionMod;
 	@FXML
-	private TextField txt_ACMiscMod;
+	private TextField txf_ACMiscMod;
 	//Init Boxes
 	@FXML
-	private TextField txt_InitTotal;
+	private TextField txf_InitTotal;
 	@FXML
-	private TextField txt_InitDexMod;
+	private TextField txf_InitDexMod;
 	@FXML
-	private TextField txt_InitMiscMod;
+	private TextField txf_InitMiscMod;
 	//Saves
 	//Fortitude
 	@FXML
-	private TextField txt_SaveFortTotal;
+	private TextField txf_SaveFortTotal;
 	@FXML
-	private TextField txt_SaveFortBase;
+	private TextField txf_SaveFortBase;
 	@FXML
-	private TextField txt_SaveFortAbilityMod;
+	private TextField txf_SaveFortAbilityMod;
 	@FXML
-	private TextField txt_SaveFortMagicMod;
+	private TextField txf_SaveFortMagicMod;
 	@FXML
-	private TextField txt_SaveFortMiscMod;
+	private TextField txf_SaveFortMiscMod;
 	@FXML
-	private TextField txt_SaveFortTempMod;
+	private TextField txf_SaveFortTempMod;
 	//Reflex
 	@FXML
-	private TextField txt_SaveRflxTotal;
+	private TextField txf_SaveRflxTotal;
 	@FXML
-	private TextField txt_SaveRflxBase;
+	private TextField txf_SaveRflxBase;
 	@FXML
-	private TextField txt_SaveRflxAbilityMod;
+	private TextField txf_SaveRflxAbilityMod;
 	@FXML
-	private TextField txt_SaveRflxMagicMod;
+	private TextField txf_SaveRflxMagicMod;
 	@FXML
-	private TextField txt_SaveRflxMiscMod;
+	private TextField txf_SaveRflxMiscMod;
 	@FXML
-	private TextField txt_SaveRflxTempMod;
+	private TextField txf_SaveRflxTempMod;
 	//Willpower
 	@FXML
-	private TextField txt_SaveWillTotal;
+	private TextField txf_SaveWillTotal;
 	@FXML
-	private TextField txt_SaveWillBase;
+	private TextField txf_SaveWillBase;
 	@FXML
-	private TextField txt_SaveWillAbilityMod;
+	private TextField txf_SaveWillAbilityMod;
 	@FXML
-	private TextField txt_SaveWillMagicMod;
+	private TextField txf_SaveWillMagicMod;
 	@FXML
-	private TextField txt_SaveWillMiscMod;
+	private TextField txf_SaveWillMiscMod;
 	@FXML
-	private TextField txt_SaveWillTempMod;
+	private TextField txf_SaveWillTempMod;
 	//ALL
 	@FXML
-	private TextField txt_SavesTemp;
+	private TextField txf_SavesTemp;
 	
 	//BAB SR
 	@FXML
-	private TextField txt_BAB;
+	private TextField txf_BAB;
 	@FXML
-	private TextField txt_SpellRes;
+	private TextField txf_SpellRes;
 	//CMB
 	@FXML
-	private TextField txt_CMBTotal;
+	private TextField txf_CMBTotal;
 	@FXML
-	private TextField txt_CMBBAB;
+	private TextField txf_CMBBAB;
 	@FXML
-	private TextField txt_CMBStrMod;
+	private TextField txf_CMBStrMod;
 	@FXML
-	private TextField txt_CMBSizeMod;
+	private TextField txf_CMBSizeMod;
 	//CMD
 	@FXML
-	private TextField txt_CMDTotal;
+	private TextField txf_CMDTotal;
 	@FXML
-	private TextField txt_CMDBAB;
+	private TextField txf_CMDBAB;
 	@FXML
-	private TextField txt_CMDStrMod;
+	private TextField txf_CMDStrMod;
 	@FXML
-	private TextField txt_CMDDexMod;
+	private TextField txf_CMDDexMod;
 	@FXML
-	private TextField txt_CMDSizeMod;
+	private TextField txf_CMDSizeMod;
 
 
 }	
